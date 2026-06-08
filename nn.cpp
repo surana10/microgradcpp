@@ -88,7 +88,6 @@ void SGD::zero_grads() {
     for (auto& p : m_Parameters)
         p->m_Gradient = 0.0f;
 }
-
 void SGD::step() {
     for (auto& p : m_Parameters)
         p->m_Value -= alpha * p->m_Gradient;

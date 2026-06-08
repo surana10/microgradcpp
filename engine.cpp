@@ -97,6 +97,7 @@ std::shared_ptr<Value> sub(std::shared_ptr<Value> p1, std::shared_ptr<Value> p2)
     return out;
 }
 
+
 std::shared_ptr<Value> power(std::shared_ptr<Value> p, float exponent) {
     float temp = std::pow(p->m_Value, exponent);
     std::shared_ptr<Value> out = std::make_shared<Value>(temp);

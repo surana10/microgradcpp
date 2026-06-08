@@ -49,6 +49,5 @@ public:
     SGD(std::vector<std::shared_ptr<Value>> params, const float& lr);
 
     void zero_grads();
-
     void step();
 };

@@ -23,8 +23,13 @@ public:
 };
 
 std::shared_ptr<Value> add(std::shared_ptr<Value> p1, std::shared_ptr<Value> p2);
+
 std::shared_ptr<Value> mul(std::shared_ptr<Value> p1, std::shared_ptr<Value> p2);
+
 std::shared_ptr<Value> tanh(std::shared_ptr<Value> p);
+
 std::shared_ptr<Value> relu(std::shared_ptr<Value> p);
+
 std::shared_ptr<Value> sub(std::shared_ptr<Value> p1, std::shared_ptr<Value> p2);
+
 std::shared_ptr<Value> power(std::shared_ptr<Value> p, float exponent);
